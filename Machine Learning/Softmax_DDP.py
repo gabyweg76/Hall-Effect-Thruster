@@ -135,7 +135,7 @@ print('From Rank: {}, ==> Preparing data..'.format(rank))
 ##############################IMPORT DATASET###########################################################################
 #######################################################################################################################
 
-with h5py.File("/home/gabrielv/simulation.h5", "r") as hdf:
+with h5py.File("/home/.../simulation.h5", "r") as hdf:
     ls = list(hdf.keys())
     print("List of species of particles: \n", ls)
     data1 = hdf.get("Xe+")
@@ -304,7 +304,7 @@ ax2.plot(range(1, args.max_epochs+1), valid_acc_lst, label='Validation accuracy'
 ax2.legend(loc='lower right')
 ax2.set(ylabel='Accuracy')
 ax2.set(xlabel='Epoch')
-fig1.savefig('/home/gabrielv/Figures/Xe+.png')
+fig1.savefig('/home/.../Figures/Xe+.png')
 
 #######################################################################################################################
 #Test accuracy
