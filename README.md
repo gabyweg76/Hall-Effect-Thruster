@@ -33,3 +33,7 @@ Two types of code are available in `Machine Learning`:
 All used dataset are available in the repository. 
 
 These codes got inspired from the work of [Sebastian Raschka](https://github.com/rasbt/deeplearning-models). 
+
+## Codes compiled with Compute Canada Clusters
+
+All the following code have been executed from Béluga, a cluster belonging to Compute Canada. For more information about the functionning of the latter, please visit the following guide from [Compute Canada](https://docs.computecanada.ca/wiki/Running_jobs)
