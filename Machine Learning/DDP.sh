@@ -6,7 +6,6 @@
 
 #SBATCH --mem=8G      
 #SBATCH --time=0-00:30
-#SBATCH --account=def-soulaima
 #SBATCH --output=%N.%j.out
 
 module load StdEnv/2020
