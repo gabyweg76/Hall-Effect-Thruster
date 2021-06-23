@@ -30,7 +30,7 @@ Two types of code are available in `Machine Learning`:
 - `Simulation 1` uses a simple code of softmax regression for small dataset. 
 - `Simulation 2` uses [Distributed Data Parallel ](https://pytorch.org/tutorials/intermediate/ddp_tutorial.html) from Pytorch to speed up the training process in case of bigger datasets.
 
-All used dataset are available in the repository. 
+All used dataset are available in the repository (`*.h5` files). 
 
 These codes got inspired from the work of [Sebastian Raschka](https://github.com/rasbt/deeplearning-models). 
 
