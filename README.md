@@ -14,12 +14,8 @@ Two types of codes are avaible in `DSMC Hybrid-PIC`/
 
 To compile the code, we suggest to enter into the shell the following instructions:
 ```
-$ mkdir results 
-```
-```
-$	g++ -std=c++11 -O2 Het.cpp -o Het 
-```
-```
+$mkdir results
+$g++ -std=c++11 -O2 Het.cpp -o Het 
 $./HET
 ```
 In the case of a multithreading approach, a shell script has been added in `DSMC Hybrid-PIC`, called `MT.sh`.
