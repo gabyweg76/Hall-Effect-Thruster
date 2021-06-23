@@ -8,7 +8,7 @@ A representation of a plasma flow for an electrostatic problem. We represent our
 - the ions are represented as particles
 - the electrons are represented as a fluid based upon the [Boltzmann's equation](https://en.wikipedia.org/wiki/Boltzmann_equation)
 
-Two types of codes are avaible in `DSMC Hybrid-PIC`/
+Two types of codes are avaible in `DSMC Hybrid-PIC`
 - `HET`, a simple one file code that can be run on 1 CPU.
 - `MT`, a multithreading approach to compute the number density of ions faster.
 
