@@ -263,7 +263,7 @@ ax2.plot(range(1, num_epochs+1), valid_acc_lst, label='Validation accuracy')
 ax2.legend(loc='lower right')
 ax2.set(ylabel='Accuracy')
 ax2.set(xlabel='Epoch')
-fig1.savefig('/home/gabrielv/Figures/Xe+.png')
+fig1.savefig('/home/.../Figures/Xe+.png')
 
 
 #######################################################################################################################
