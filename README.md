@@ -19,4 +19,17 @@ $ g++ -std=c++11 -O2 Het.cpp -o Het
 $ ./HET
 ```
 In the case of a multithreading approach, a shell script has been added in `DSMC Hybrid-PIC`, called `MT.sh`.
-This code inspired from the work of [Lubos Breida](https://www.particleincell.com/2015/fem-pic/). 
+This code got inspired from the work of [Lubos Breida](https://www.particleincell.com/2015/fem-pic/). 
+
+## Post-Treatment Analysis using Multiclass Logistic Regression
+
+A softmax regression code was used to predict the magnetic confinement of ions throughout the simulation.
+
+Two types of code are available in `Machine Learning`:
+
+-`Simulation 1` uses a simple code of softmax regression for small dataset. 
+-`Simulation 2` uses [Distributed Data Parallel ](https://pytorch.org/tutorials/intermediate/ddp_tutorial.html) from Pytorch to speed up the training process in case of bigger datasets.
+
+All used dataset are available in the repository. 
+
+These codes got inspired from the work of [Sebastian Raschka](https://github.com/rasbt/deeplearning-models). 
